@@ -1,7 +1,7 @@
 # MSc Research Notebook
 
-- **Student Name:** [Your Name]
-- **Student ID:** [Your ID Number]
+- **Student Name:** James Kelly
+- **Student ID:** 23370858
 - **Proposed Research Title:** [Working Title / Broad Topic Area]
 - **GitHub Repository Link:** [Paste URL here]
 
