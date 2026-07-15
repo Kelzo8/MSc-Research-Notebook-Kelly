@@ -79,6 +79,22 @@ Do not just copy and paste citations. For every core paper that shapes your fina
   - The Random Forest + TF‑IDF + RoBERTa setup gives me a clear example of how to mix “traditional” ML with transformer representations in one pipeline, which fits well with my comparison theme.
   - The thesis also reinforces the value of using ensembles and richer feature sets, rather than relying on a single model, which is something I can reflect in my own experimental design.
 
+### Human or Machine? A Survey on Machine-Generated Text Detection / Ahmad et al. 2026
+
+- **Full IEEE/APA Citation:**
+  Ahmad, Z., et al. (2026). *Human or Machine? A Survey on Machine-Generated Text Detection*. IEEE Access, 14, 34113–34136. https://doi.org/10.1109/ACCESS.2026.3666781
+
+- **Why did you select this paper?**
+  I picked this paper because it is a recent, peer-reviewed survey that looks specifically at how well different methods can detect machine-generated text. It gives an overview of the current state of the field and compares model performance with human performance, which is directly relevant to my thesis.
+
+- **Key Findings & Methodology:**
+  The authors review a large number of benchmark corpora and studies on machine-generated text detection and group detection approaches into several classes (classical machine learning, deep learning, transformer-based models, commercial AI detectors, and statistical tools). They show that transformer-based detectors can achieve very high accuracy in some setups, while human evaluators perform noticeably worse, and they summarise common evaluation setups and metrics.
+
+- **Limitations/Weaknesses Identified:**
+  The focus is on general machine-generated text rather than on short, informal comments, so the findings may not directly transfer to social media or comment sections without further testing. As a survey, it cannot go into full technical detail for each individual model, so I still need to read primary research papers for deeper methodological insight.
+
+- **Direct Connection to *Your* Project:**
+  This survey helps me justify why transformer-based detectors and ensemble approaches are good candidates for detecting bot-generated comments in my thesis. It also gives me a clear picture of how different types of detectors compare and what evaluation metrics are typically used, which I can use when designing and reporting my own experiments.
 
 *(Duplicate this block as you discover new literature throughout the course)*
 
