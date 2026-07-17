@@ -159,6 +159,26 @@ Update this section at the end of *every* week. Keep reflections concise, focusi
   Do you also want us to add our latex thesis and continuosly update that as well?
 
 
+### Week 03: Focus Area - [Building the IEEE Introduction & Workflow]
+
+- **Activities Completed:**
+  - Set up an initial IEEE conference LaTeX file in Overleaf using the official template and added the first context/hook paragraph for the introduction.
+  - Defined a minimal title, author block, abstract, and keyword section to match my bot‑comment detection topic.
+
+- **Key Insights / Discoveries:**
+  - Overleaf is good for editing and compiling, but I still need a separate Git workflow (local repo + GitHub) to satisfy the module’s requirement for a visible commit history on the LaTeX source files.
+
+- **Obstacles Encountered & How You Overcame Them:**
+  - I initially assumed I could commit and push directly from Overleaf, but found that Git/GitHub integration is only available on premium plans. I resolved this by planning to regularly download the Overleaf project as a ZIP, copy changes into my local repository, and commit/push from there so the LaTeX work is properly tracked.
+  - Needed to make sure the IEEE template was not cluttered with example sections and guidance text, I stripped the template down to a minimal skeleton that keeps only the parts required for my 2‑page introduction.
+
+- **Plan for Next Week:**
+  - Add a short mini literature review paragraph to the IEEE introduction summarising key work on machine-generated text detection (surveys, transformer ensembles, hybrid pipelines) and link it clearly to my bot‑comment topic.
+  - Begin drafting a clear problem statement and gap analysis in the introduction based on what I have already logged in the notebook.
+  - Keep finding relevant papers to add to the literature review.
+  - Record my presentaion and continue with the research integrity training.
+
+
 *(Continue adding weekly blocks as the module progresses)*
 
 [**NOTE:**]{.underline} Make sure to regular commits to the GitHub repository as the research notebook is updated. These commits will also form part of the evaluation of your work.
