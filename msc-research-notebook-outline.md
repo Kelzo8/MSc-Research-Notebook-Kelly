@@ -13,8 +13,10 @@ Use this section to map out how your project evolves over the block. Whenever yo
 
 ### Current Working Research Question(s)
 
-> *Last Updated: 20/07/2026*  
+> *Last Updated: 23/07/2026*  
 > How well do transformer-based models perform compared to more traditional machine learning methods when trying to tell apart bot‑generated comments from human comments on online platforms?
+
+The current gap is that existing work covers machine-generated text detection and fake public comments separately, but there is limited direct comparison of traditional machine learning and transformer-based detectors specifically for bot-generated comments in realistic online-platform settings.
 ### The Pivot Log
 
 Document any major changes in direction here. (e.g., *"Switched from quantitative survey to qualitative interviews because sample access fell through on 15/10/2026"*).
@@ -28,7 +30,7 @@ Document any major changes in direction here. (e.g., *"Switched from quantitativ
 
 Do not just copy and paste citations. For every core paper that shapes your final Introduction, document your active reading process here. Also note papers that looked promising but you decided, on review, to exclude them. Note reasons for exclusion.
 
-I found the papers in this section using Google Scholar, starting from keywords such as “bot-generated comments,” “machine-generated text detection,” “social bot detection,” and “fake public comments.” I then used backward and forward snowballing to identify additional papers and kept the ones most directly connected to comment-level or machine-generated text detection. I also prioritised papers published within the last 5 years, for relevance.
+I found the papers in this section using Google Scholar, starting from keywords such as “bot-generated comments,” “machine-generated text detection,” “social bot detection,” and “fake public comments.” I then used backward and forward snowballing to identify additional papers and kept the ones most directly connected to comment-level or machine-generated text detection. I also prioritised papers published within the last 5 years, for relevance. I also prioritised papers that were directly relevant to comment-level detection or comparative detector evaluation, while excluding broader papers that were not closely tied to my research question
 
 ### [Paper 1 Short Title / Author Year]
 
@@ -140,6 +142,11 @@ I found the papers in this section using Google Scholar, starting from keywords 
   This paper helps me justify the need to test detectors on realistic content rather than assuming that benchmark performance will transfer to comments.
   It strengthens the argument for comparing transformer models with traditional ML baselines under more practical conditions.
 
+- **Reasons for not using papers
+-Papers about general machine-generated text were useful background but too broad for the final comparison.
+-Papers focused on non-comment domains were less directly applicable.
+-Some sources looked promising but did not address detector comparison clearly enough.
+
 *(Duplicate this block as you discover new literature throughout the course)*
 
 ------------------------------------------------------------------------
@@ -200,7 +207,7 @@ Update this section at the end of *every* week. Keep reflections concise, focusi
 - **Plan for Next Week:**
   - Finish reading the SemEval paper and the Purdue thesis properly and update my notes with more detail from the methods and results sections, and continue finding relevant papers for my research question and topic
   - Ask questions: How many papers are we expected to find by the end of the module?
-  Do you also want us to add our latex thesis and continuosly update that as well?
+  Do you also want us to add our latex thesis and continuously update that as well?
 
 
 ### Week 03: Focus Area - [Building the IEEE Introduction & Workflow]
@@ -220,7 +227,31 @@ Update this section at the end of *every* week. Keep reflections concise, focusi
   - Add a short mini literature review paragraph to the IEEE introduction summarising key work on machine-generated text detection (surveys, transformer ensembles, hybrid pipelines) and link it clearly to my bot‑comment topic.
   - Begin drafting a clear problem statement and gap analysis in the introduction based on what I have already logged in the notebook.
   - Keep finding relevant papers to add to the literature review.
-  - Record my presentaion and continue with the research integrity training.
+  - Record my presentation and continue with the research integrity training.
+
+### Week 04: Focus Area - Literature Review and Workflow
+
+- **Activities Completed:**
+  - Continued searching for relevant papers using Google Scholar and Zotero.
+  - Added and read key sources on machine-generated text detection, fake public comments, and bot/comment detection.
+  - Refined my research focus to compare traditional machine learning and transformer-based models for bot-generated comments.
+  - Set up the BibTeX workflow in Overleaf and started testing citations.
+
+- **Key Insights / Discoveries:**
+  - The literature covers machine-generated text quite well, but there is less work directly comparing model types for bot-generated comments.
+  - The fake public comments paper and the MAGE paper were especially useful for narrowing my topic.
+  - Zotero and BibTeX seem like the best way to manage references for the IEEE paper.
+
+- **Obstacles Encountered & How You Overcame Them:**
+  - Some papers were too broad, so I filtered out the ones that were not directly relevant.
+  - I had a few issues with LaTeX citations, but I fixed them by checking the `.bib` file and citation keys.
+  - I also needed to sharpen the literature gap, so I focused the project more clearly on the comparison between model types.
+
+- **Plan for Next Week:**
+  - Finish fixing the references in LaTeX.
+  - Add any final relevant papers if needed.
+  - Write the mini literature review section for the introduction.
+  - Keep cleaning up the notebook and make sure everything is organised properly.
 
 
 *(Continue adding weekly blocks as the module progresses)*
