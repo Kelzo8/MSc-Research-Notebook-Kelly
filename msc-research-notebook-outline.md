@@ -181,13 +181,6 @@ Update this section at the end of *every* week. Keep reflections concise, focusi
 ### Week 01: Focus Area - [Topic Selection]
 
 - **Activities Completed:**
-  - [Item 1]
-  - [Item 2]
-- **Key Insights / Discoveries:**
-- **Obstacles Encountered & How You Overcame Them:**
-- **Plan for Next Week:**
-
-- **Activities Completed:**
   - Reviewed module brief and requirements for the digital research notebook.
   - Brainstormed broad thesis ideas around AI-assisted detection of fake and hateful comments.
 
