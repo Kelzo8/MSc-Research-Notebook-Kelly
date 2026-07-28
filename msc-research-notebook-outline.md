@@ -13,8 +13,8 @@ Use this section to map out how your project evolves over the block. Whenever yo
 
 ### Current Working Research Question(s)
 
-> *Last Updated: 23/07/2026*  
-> How well do transformer-based models perform compared to more traditional machine learning methods when trying to tell apart bot‑generated comments from human comments on online platforms?
+> *Last Updated: 27/07/2026*  
+> How well do transformer-based models perform compared to traditional machine learning methods when distinguishing bot-generated comments from human comments on online platforms?
 
 The current gap is that existing work covers machine-generated text detection and fake public comments separately, but there is limited direct comparison of traditional machine learning and transformer-based detectors specifically for bot-generated comments in realistic online-platform settings.
 ### The Pivot Log
@@ -25,7 +25,7 @@ Document any major changes in direction here. (e.g., *"Switched from quantitativ
 |:-----------------|:-----------------|:-----------------|:-----------------|
 |  |  |  |  |
 | 09/07/2026 | Broad idea: “How AI can help detect fake or hateful comments etc.”   | Focused comparison of transformer-based vs traditional ML models for toxic/hateful comment detection   | Narrowing to a comparative modelling study makes the project feasible and aligns with current literature on toxic comment classification (e.g., ML vs DL model evaluations). |
-| 13/07/2026 | Comparing ML vs deep learning models for detecting toxic/hateful human comments on social media  | Detecting and classifying bot‑ or AI‑generated comments versus human comments on online platforms                    | Bot and AI‑generated text are becoming more common online, and there is now specific work on transformer ensembles and other models for detecting machine‑generated text, so this is both timely and still within the overall theme of online content moderation.
+| 13/07/2026 | Comparing ML vs deep learning models for detecting toxic/hateful human comments on social media  | Detecting and classifying bot‑ or AI‑generated comments versus human comments on online platforms                    | Early literature searching showed stronger and more current research activity around machine-generated text detection than around a direct ML-vs-transformer comparison for toxic comments. The revised topic remained within online content moderation while providing a clearer research gap and a more manageable scope.
 ## 2. Critical Source Evaluation Log
 
 Do not just copy and paste citations. For every core paper that shapes your final Introduction, document your active reading process here. Also note papers that looked promising but you decided, on review, to exclude them. Note reasons for exclusion.
