@@ -32,14 +32,6 @@ Do not just copy and paste citations. For every core paper that shapes your fina
 
 I found the papers in this section using Google Scholar, starting from keywords such as “bot-generated comments,” “machine-generated text detection,” “social bot detection,” and “fake public comments.” I then used backward and forward snowballing to identify additional papers and kept the ones most directly connected to comment-level or machine-generated text detection. I also prioritised papers published within the last 5 years, for relevance. I also prioritised papers that were directly relevant to comment-level detection or comparative detector evaluation, while excluding broader papers that were not closely tied to my research question
 
-### [Paper 1 Short Title / Author Year]
-
-- **Full IEEE/APA Citation:**
-- **Why did you select this paper?** (What gap does it address?)
-- **Key Findings & Methodology:**
-- **Limitations/Weaknesses Identified:**
-- **Direct Connection to *Your* Project:** (How does this support or challenge your thesis?)
-
 
 ### RoBERTa Ensemble for Detecting Machine-Generated Text (SemEval‑2024 SCaLAR System) / Kumar et al. 2024
 
@@ -141,6 +133,27 @@ I found the papers in this section using Google Scholar, starting from keywords 
 - **Direct Connection to *Your* Project:**
   This paper helps me justify the need to test detectors on realistic content rather than assuming that benchmark performance will transfer to comments.
   It strengthens the argument for comparing transformer models with traditional ML baselines under more practical conditions.
+
+### The impact of generative AI on social media / Møller et al. 2026
+
+- **Full IEEE/APA Citation:**
+  - Møller, A. G., et al. (2026). *The impact of generative AI on social media: an experimental study*. Available at: [https://pmc.ncbi.nlm.nih.gov/articles/PMC13002914/](https://pmc.ncbi.nlm.nih.gov/articles/PMC13002914/)
+
+- **Why did you select this paper?**
+  - I selected this paper because it is directly concerned with generative AI in social media environments, which makes it more contextually relevant to my topic than broader machine-generated text papers.
+  - It helps support the motivation for studying bot-generated comments by showing that generative AI is already affecting the quality and authenticity of online content.
+
+- **Key Findings & Methodology:**
+  - The study takes an experimental approach to examining the impact of generative AI on social media.
+  - It reports that AI-assisted content can increase engagement and content production, while also reducing perceived quality and authenticity in some cases.
+
+- **Limitations/Weaknesses Identified:**
+  - The paper is more focused on the impact of generative AI on social-media content than on the technical problem of bot-comment detection itself.
+  - It does not provide a direct comparison of traditional machine learning and transformer-based detectors.
+
+- **Direct Connection to *Your* Project:**
+  - This paper strengthens the justification for my project by showing why authenticity in online content matters in practice.
+  - It supports the wider context for comparing detector types, even though it is not itself a detector-comparison paper.
 
 - **Reasons for not using papers
 -Papers about general machine-generated text were useful background but too broad for the final comparison.
