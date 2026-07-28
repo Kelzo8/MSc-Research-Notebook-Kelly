@@ -155,7 +155,49 @@ I found the papers in this section using Google Scholar, starting from keywords 
   - This paper strengthens the justification for my project by showing why authenticity in online content matters in practice.
   - It supports the wider context for comparing detector types, even though it is not itself a detector-comparison paper.
 
-- **Reasons for not using papers
+### Testing of Detection Tools for AI-Generated Text / Weber-Wulff et al. 2023
+
+- **Full IEEE/APA Citation:**
+  Weber-Wulff, D., Anohina-Naumeca, A., Bjelobaba, S., Foltýnek, T., Guerrero-Dib, J., Popoola, O., Šigut, P., & Waddington, L. (2023). *Testing of detection tools for AI-generated text*. *International Journal for Educational Integrity, 19*(1), 26. [https://doi.org/10.1007/s40979-023-00146-z](https://doi.org/10.1007/s40979-023-00146-z)
+
+- **Why did you select this paper?**
+  - I selected this paper because it provides a broad and systematic evaluation of existing AI-generated text detection tools.
+  - It is useful for my project because it shows that detection performance must be judged in terms of reliability as well as accuracy.
+
+- **Key Findings & Methodology:**
+  - The study evaluates multiple publicly available and commercial AI-text detection tools on human-written and ChatGPT-generated texts.
+  - The authors report that many available tools are neither fully accurate nor consistently reliable, and that obfuscation techniques can further reduce their effectiveness.
+
+- **Limitations/Weaknesses Identified:**
+  - The paper focuses mainly on academic-style text rather than short online comments, so the findings may not transfer directly to social-media or comment-level detection.
+  - It evaluates detector tools rather than comparing traditional machine learning and transformer-based models directly.
+
+- **Direct Connection to *Your* Project:**
+  - This paper helps me show that text detection is not only a performance problem but also a reliability problem.
+  - It strengthens the motivation for my project by supporting the need to compare detector approaches carefully rather than assuming that strong benchmark results automatically mean robust real-world performance.
+
+### The Accuracy-Bias Trade-Offs in AI Text Detection Tools / Pratama 2025
+
+- **Full IEEE/APA Citation:**
+  Pratama, A. R. (2025). *The accuracy-bias trade-offs in AI text detection tools and their impact on fairness in scholarly publication*. *PeerJ Computer Science, 11*, e2953. [https://doi.org/10.7717/peerj-cs.2953](https://doi.org/10.7717/peerj-cs.2953)
+
+- **Why did you select this paper?**
+  - I selected this paper because it adds a fairness perspective to the AI-text detection literature.
+  - It is relevant to my project because it shows that a detector can appear effective overall while still performing unevenly across different groups of writers.
+
+- **Key Findings & Methodology:**
+  - The study evaluates several popular AI-text detection tools using both human-written and AI-generated abstracts, including AI-assisted revisions.
+  - The results show notable trade-offs between accuracy and bias, with some groups being disproportionately affected by detection errors.
+
+- **Limitations/Weaknesses Identified:**
+  - The study is based on scholarly writing rather than online comments, so the context differs from my planned application area.
+  - It focuses on existing detector tools rather than on a direct model-family comparison between traditional machine learning and transformers.
+
+- **Direct Connection to *Your* Project:**
+  - This paper helps me justify that comparing detectors should involve more than raw accuracy, especially when discussing robustness and fairness.
+  - It also strengthens the literature gap by showing that detector evaluation is still complicated even before moving into short, informal online-comment settings.
+
+- **Reasons for Excluding Other Papers
 -Papers about general machine-generated text were useful background but too broad for the final comparison.
 -Papers focused on non-comment domains were less directly applicable.
 -Some sources looked promising but did not address detector comparison clearly enough.
@@ -258,6 +300,26 @@ Update this section at the end of *every* week. Keep reflections concise, focusi
   - Add any final relevant papers if needed.
   - Write the mini literature review section for the introduction.
   - Keep cleaning up the notebook and make sure everything is organised properly.
+
+### Week 05: Focus Area - Refining the Introduction and Strengthening the Literature Review
+
+- **Activities Completed:**
+  - Continued developing the IEEE conference paper introduction in LaTeX and refined the abstract to better match the updated research focus on bot-generated comment detection.
+  - Added two further peer-reviewed sources on AI-text detection reliability and fairness, Weber-Wulff et al. (2023) and Pratama (2025).
+  - Updated the literature review section of the introduction so that it now reflects both model performance and the wider issues of detector reliability and bias.
+
+- **Key Insights / Discoveries:**
+  - The literature does not just compare models on accuracy. It also shows that AI-text detectors can have important reliability and fairness limitations.
+  - This helped me realise that my project should not frame the comparison only in terms of raw performance. It should also consider how suitable different detector types are for realistic online-platform settings.
+  - Reviewing the Creswell slides made it clear that the introduction would benefit from a cleaner order. I plan to restructure it so that it moves more clearly from the problem, to the supporting literature, to the research gap, to the significance of the study, and then to the purpose and research question.
+
+- **Obstacles Encountered & How You Overcame Them:**
+  - I had some difficulty deciding where the new papers should sit in the introduction because I did not want them to feel disconnected from the main argument. I resolved this by placing them in the literature-review paragraph, where they support the transition from strong model performance to unresolved detector limitations.
+  - The order of the introduction still feels slightly uneven at the moment. To address this, I plan to revise it using the Creswell deficiency model so the argument develops in a more logical sequence.
+
+- **Plan for Next Week:**
+  - Reorder the introduction so that the problem statement comes first, followed by the literature context, the gap in existing studies, the significance of the problem, and then the purpose of the study.
+  - Tighten the wording of the introduction to reduce repetition and improve academic style.
 
 
 *(Continue adding weekly blocks as the module progresses)*
