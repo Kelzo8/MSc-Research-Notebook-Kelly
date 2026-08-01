@@ -321,7 +321,22 @@ Update this section at the end of *every* week. Keep reflections concise, focusi
   - Reorder the introduction so that the problem statement comes first, followed by the literature context, the gap in existing studies, the significance of the problem, and then the purpose of the study.
   - Tighten the wording of the introduction to reduce repetition and improve academic style.
 
+### Week 06: Focus Area - Temporary Pause 
 
+- **Activities Completed:**
+  - Reviewed the current state of the notebook and the IEEE introduction before travelling.
+  - Identified the parts of the paper that still need polishing after the break, especially the introduction flow and final formatting.
+
+- **Key Insights / Discoveries:**
+  - The paper is now in a strong draft state, but it still needs a final polish pass to reduce repetition and improve flow.
+
+- **Obstacles Encountered & How You Overcame Them:**
+  - I will be away for at least 10 days, so I cannot continue regular commits during that period.
+
+- **Plan for Next Week:**
+  - Resume Git commits as soon as I am back.
+  - Re-read the introduction with fresh eyes and make final wording adjustments.
+  
 *(Continue adding weekly blocks as the module progresses)*
 
 [**NOTE:**]{.underline} Make sure to regular commits to the GitHub repository as the research notebook is updated. These commits will also form part of the evaluation of your work.
