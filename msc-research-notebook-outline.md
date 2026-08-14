@@ -336,7 +336,26 @@ Update this section at the end of *every* week. Keep reflections concise, focusi
 - **Plan for Next Week:**
   - Resume Git commits as soon as I am back.
   - Re-read the introduction with fresh eyes and make final wording adjustments.
-  
+
+### Week 07: Focus Area - MCQ Preparation and Light Literature Search
+
+- **Activities Completed:**
+  - Spent most of the week studying for the MCQ exam, so time available for the thesis was limited.
+  - Did some light searching for 1–2 additional papers on bot-generated comment detection and AI-text detection to see if any further sources would strengthen the introduction.
+  - Watched the 2026 AI documentary *The AI Doc: Or How I Became an Apocaloptimist* on the plane, which looks at the risks and promises of generative AI through interviews with researchers and industry leaders.
+
+- **Key Insights / Discoveries:**
+  - The documentary reinforced the motivation for the project by highlighting how easy it now is to generate large volumes of realistic-looking text, which increases the risk of fake or bot-driven comments on platforms.
+
+- **Obstacles Encountered & How You Overcame Them:**
+  - The MCQ preparation limited the time I could devote to deeper reading or major writing sprints this week.
+  - I managed this by keeping the research work light and focused on high-level reading and reflection rather than trying to force large changes to the draft.
+
+- **Plan for Next Week:**
+  - Begin writing the remaining half-page of the paper, focusing on tightening the introduction and clarifying the contribution and roadmap.
+  - Clean up the introduction wording to reduce repetition and improve flow.
+  - Make sure the notebook, paper, and Git commits are all aligned before the next submission checkpoint.
+
 *(Continue adding weekly blocks as the module progresses)*
 
 [**NOTE:**]{.underline} Make sure to regular commits to the GitHub repository as the research notebook is updated. These commits will also form part of the evaluation of your work.
