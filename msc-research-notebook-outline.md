@@ -202,6 +202,50 @@ I found the papers in this section using Google Scholar, starting from keywords 
 -Papers focused on non-comment domains were less directly applicable.
 -Some sources looked promising but did not address detector comparison clearly enough.
 
+### AI-Generated Text Detection: A Comprehensive Review of Active and Passive Approaches / Xiang et al. 2026
+
+- **Full IEEE/APA Citation:**
+  - Xiang, L., Li, N., Liu, Y., & Hu, J. (2026). *AI-Generated Text Detection: A Comprehensive Review of Active and Passive Approaches*. *Computers, Materials & Continua, 86*(3), 5. [https://doi.org/10.32604/cmc.2025.073347](https://doi.org/10.32604/cmc.2025.073347)
+
+- **Why did you select this paper?**
+  - I selected this paper because it is a recent review that provides a different categorisation of AI-generated text detection methods, distinguishing between active and passive approaches.
+  - It is useful for my project because it helps position traditional feature-based and transformer-based classifiers within the wider set of available detection approaches.
+
+- **Key Findings & Methodology:**
+  - The paper reviews AI-generated text detection methods including statistical and linguistic approaches, machine-learning classifiers, neural models, watermarking, and retrieval-based approaches.
+  - It identifies persistent challenges involving robustness, cross-domain generalisation, adversarial modification, and the difficulty of detecting short or heavily edited AI-generated text.
+
+- **Limitations/Weaknesses Identified:**
+  - As a review paper, it provides broad coverage but does not offer a direct experimental comparison of traditional machine learning and transformer-based models using one common comment-level dataset.
+  - Its discussion spans several application areas, so not every conclusion transfers directly to short online comments.
+
+- **Direct Connection to *Your* Project:**
+  - This paper supports the wider literature context by showing that AI-text detection involves multiple method families and that performance can vary across domains and conditions.
+  - It helps justify the project’s focus on a controlled comparison between traditional machine learning and transformer-based approaches, particularly because short and informal text remains difficult to detect reliably.
+
+### DetectRL: Benchmarking LLM-Generated Text Detection in Real-World Scenarios / Wu et al. 2024
+
+- **Full IEEE/APA Citation:**
+  - Wu, J., Zhan, R., Wong, D. F., Yang, S., Yang, X., Yuan, Y., & Chao, L. S. (2024). *DetectRL: Benchmarking LLM-Generated Text Detection in Real-World Scenarios*. In *Proceedings of the Thirty-Eighth Conference on Neural Information Processing Systems: Datasets and Benchmarks Track (NeurIPS 2024)*. [https://arxiv.org/abs/2410.23746](https://arxiv.org/abs/2410.23746)
+
+- **Why did you select this paper?**
+  - I selected this paper because it evaluates AI-generated text detectors in conditions intended to reflect real-world use rather than relying only on a single clean benchmark.
+  - It is relevant to my project because it considers how detector performance changes across domains, language models, text characteristics, and adversarial modifications.
+
+- **Key Findings & Methodology:**
+  - The authors introduce DetectRL, a benchmark for evaluating LLM-generated text detectors under varied real-world conditions.
+  - The benchmark examines detector behaviour across different domains, LLMs, text lengths, writing styles, human revision factors, and adversarial attacks.
+  - The study shows that detector performance can vary substantially when the text source, domain, or generation conditions change, meaning that high performance on a single benchmark may not translate directly to real-world use.
+
+- **Limitations/Weaknesses Identified:**
+  - The paper is primarily a benchmark and evaluation study rather than a direct comparison focused only on traditional machine learning versus transformer-based classifiers.
+  - Although it addresses realistic variation, its benchmark settings may not exactly match the platform or comment dataset selected for my project.
+
+- **Direct Connection to *Your* Project:**
+  - This paper strengthens the justification for evaluating both detector families under identical data splits and evaluation conditions.
+  - It supports the argument that a comparison should consider more than a single accuracy score, because domain, generator, text length, and adversarial modification can affect detector reliability.
+  - It will help inform the proposed evaluation strategy, particularly the use of consistent metrics such as accuracy, precision, recall, F1-score, and potentially robustness checks where feasible.
+
 *(Duplicate this block as you discover new literature throughout the course)*
 
 ------------------------------------------------------------------------
