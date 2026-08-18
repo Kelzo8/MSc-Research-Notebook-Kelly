@@ -9,8 +9,6 @@
 
 ## 1. Project Overview & Evolution Track
 
-Use this section to map out how your project evolves over the block. Whenever you change your research question, methodology, or scope, update this log.
-
 ### Current Working Research Question(s)
 
 > *Last Updated: 27/07/2026*  
@@ -19,7 +17,6 @@ Use this section to map out how your project evolves over the block. Whenever yo
 The current gap is that existing work covers machine-generated text detection and fake public comments separately, but there is limited direct comparison of traditional machine learning and transformer-based detectors specifically for bot-generated comments in realistic online-platform settings.
 ### The Pivot Log
 
-Document any major changes in direction here. (e.g., *"Switched from quantitative survey to qualitative interviews because sample access fell through on 15/10/2026"*).
 
 | Date | Previous Direction | New Direction | Reason for Pivot / Academic Justification |
 |:-----------------|:-----------------|:-----------------|:-----------------|
@@ -246,8 +243,6 @@ I found the papers in this section using Google Scholar, starting from keywords 
   - It supports the argument that a comparison should consider more than a single accuracy score, because domain, generator, text length, and adversarial modification can affect detector reliability.
   - It will help inform the proposed evaluation strategy, particularly the use of consistent metrics such as accuracy, precision, recall, F1-score, and potentially robustness checks where feasible.
 
-*(Duplicate this block as you discover new literature throughout the course)*
-
 ------------------------------------------------------------------------
 
 ## 3. Generative AI & Digital Tool Transparency Log
@@ -261,8 +256,6 @@ In line with academic integrity policies, any use of digital tools (AI search en
 ------------------------------------------------------------------------
 
 ## 4. Weekly Activity & Reflection Logs
-
-Update this section at the end of *every* week. Keep reflections concise, focusing on **actions taken**, **obstacles hit**, and **next steps**.
 
 ### Week 01: Focus Area - [Topic Selection]
 
@@ -400,6 +393,5 @@ Update this section at the end of *every* week. Keep reflections concise, focusi
   - Clean up the introduction wording to reduce repetition and improve flow.
   - Make sure the notebook, paper, and Git commits are all aligned before the next submission checkpoint.
 
-*(Continue adding weekly blocks as the module progresses)*
 
 [**NOTE:**]{.underline} Make sure to regular commits to the GitHub repository as the research notebook is updated. These commits will also form part of the evaluation of your work.
