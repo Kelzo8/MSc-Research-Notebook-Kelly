@@ -20,7 +20,6 @@ The current gap is that existing work covers machine-generated text detection an
 
 | Date | Previous Direction | New Direction | Reason for Pivot / Academic Justification |
 |:-----------------|:-----------------|:-----------------|:-----------------|
-|  |  |  |  |
 | 09/07/2026 | Broad idea: “How AI can help detect fake or hateful comments etc.”   | Focused comparison of transformer-based vs traditional ML models for toxic/hateful comment detection   | Narrowing to a comparative modelling study makes the project feasible and aligns with current literature on toxic comment classification (e.g., ML vs DL model evaluations). |
 | 13/07/2026 | Comparing ML vs deep learning models for detecting toxic/hateful human comments on social media  | Detecting and classifying bot‑ or AI‑generated comments versus human comments on online platforms                    | Early literature searching showed stronger and more current research activity around machine-generated text detection than around a direct ML-vs-transformer comparison for toxic comments. The revised topic remained within online content moderation while providing a clearer research gap and a more manageable scope.
 ## 2. Critical Source Evaluation Log
@@ -257,7 +256,7 @@ In line with academic integrity policies, any use of digital tools (AI search en
 
 ## 4. Weekly Activity & Reflection Logs
 
-### Week 01: Focus Area - [Topic Selection]
+### Week 01: Focus Area - Choose Research Topic
 
 - **Activities Completed:**
   - Reviewed module brief and requirements for the digital research notebook.
@@ -274,7 +273,7 @@ In line with academic integrity policies, any use of digital tools (AI search en
   - Finalise the definition of “toxic and hateful comments” and target platform(s).
   - Identify 3–5 key papers on toxic comment and hate speech detection to evaluate.
 
-### Week 02: Focus Area - [e.g., Refining the Research Question]
+### Week 02: Focus Area - Refining the Research Question
 - **Activities Completed:**
   - Decided to move the focus from toxic/hateful human comments to bot‑ or AI‑generated comments, still within the context of online platforms.
   - Spoke with a student in the year ahead who had built a classifier for transphobic strings, to get a feel for the sort of dataset size, features, and evaluation they used.
@@ -295,7 +294,7 @@ In line with academic integrity policies, any use of digital tools (AI search en
   Do you also want us to add our latex thesis and continuously update that as well?
 
 
-### Week 03: Focus Area - [Building the IEEE Introduction & Workflow]
+### Week 03: Focus Area - Building the IEEE Introduction & Workflow
 
 - **Activities Completed:**
   - Set up an initial IEEE conference LaTeX file in Overleaf using the official template and added the first context/hook paragraph for the introduction.
@@ -393,5 +392,28 @@ In line with academic integrity policies, any use of digital tools (AI search en
   - Clean up the introduction wording to reduce repetition and improve flow.
   - Make sure the notebook, paper, and Git commits are all aligned before the next submission checkpoint.
 
+### Week 08: Focus Area - Finalising and Submitting the Assignment
 
-[**NOTE:**]{.underline} Make sure to regular commits to the GitHub repository as the research notebook is updated. These commits will also form part of the evaluation of your work.
+- **Activities Completed:**
+  - Finished the two-page IEEE conference paper introduction and supporting literature review.
+  - Proofread the manuscript for clarity, grammar, formatting, citations, and consistency.
+  - Compared the Overleaf version with the version-controlled repository to ensure that the text was synchronised.
+  - Confirmed that the final manuscript remained exactly two pages, including references.
+  - Prepared the completed assignment for submission.
+
+- **Key Insights / Discoveries:**
+  - Proofreading the paper highlighted the importance of consistent terminology, particularly when distinguishing bot-generated comments from human-written comments.
+  - The final review confirmed that the introduction developed from the research problem and literature context to the research gap, proposed contribution, and paper roadmap.
+
+- **Obstacles Encountered & How You Overcame Them:**
+  - The main challenge was keeping the paper within the strict two-page limit while retaining the required context, literature review, gap analysis, methodology, and roadmap.
+  - I addressed this by removing repetition, checking the IEEE formatting, and making targeted wording changes rather than adding unnecessary content.
+
+- **Plan for Next Week:**
+  - Await feedback on the submitted assignment.
+  - Continue developing the proposed methodology and dataset plan.
+
+### Alignment With Final Introduction
+
+The final paper follows the research direction documented in this notebook. It focuses on detecting bot-generated comments rather than classifying toxic or hateful human comments. The evaluated sources informed the problem context, literature review, research gap, and proposed comparison of traditional machine learning and transformer-based detectors. The final title, research question, proposed contribution, and high-level methodology are consistent with the documented research pivots and weekly development.
+
