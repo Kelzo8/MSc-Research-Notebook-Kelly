@@ -24,8 +24,6 @@ The current gap is that existing work covers machine-generated text detection an
 | 13/07/2026 | Comparing ML vs deep learning models for detecting toxic/hateful human comments on social media  | Detecting and classifying bot‑ or AI‑generated comments versus human comments on online platforms                    | Early literature searching showed stronger and more current research activity around machine-generated text detection than around a direct ML-vs-transformer comparison for toxic comments. The revised topic remained within online content moderation while providing a clearer research gap and a more manageable scope.
 ## 2. Critical Source Evaluation Log
 
-Do not just copy and paste citations. For every core paper that shapes your final Introduction, document your active reading process here. Also note papers that looked promising but you decided, on review, to exclude them. Note reasons for exclusion.
-
 I found the papers in this section using Google Scholar, starting from keywords such as “bot-generated comments,” “machine-generated text detection,” “social bot detection,” and “fake public comments.” I then used backward and forward snowballing to identify additional papers and kept the ones most directly connected to comment-level or machine-generated text detection. I also prioritised papers published within the last 5 years, for relevance. I also prioritised papers that were directly relevant to comment-level detection or comparative detector evaluation, while excluding broader papers that were not closely tied to my research question
 
 
@@ -80,7 +78,7 @@ I found the papers in this section using Google Scholar, starting from keywords 
   I picked this paper because it is a recent, peer-reviewed survey that looks specifically at how well different methods can detect machine-generated text. It gives an overview of the current state of the field and compares model performance with human performance, which is directly relevant to my thesis.
 
 - **Key Findings & Methodology:**
-  The authors review a large number of benchmark corpora and studies on machine-generated text detection and group detection approaches into several classes (classical machine learning, deep learning, transformer-based models, commercial AI detectors, and statistical tools). They show that transformer-based detectors can achieve very high accuracy in some setups, while human evaluators perform noticeably worse, and they summarise common evaluation setups and metrics.
+  The authors review a large number of benchmark studies on machine-generated text detection and group detection approaches into several classes (classical machine learning, deep learning, transformer-based models, commercial AI detectors, and statistical tools). They show that transformer-based detectors can achieve very high accuracy in some setups, while human evaluators perform noticeably worse, and they summarise common evaluation setups and metrics.
 
 - **Limitations/Weaknesses Identified:**
   The focus is on general machine-generated text rather than on short, informal comments, so the findings may not directly transfer to social media or comment sections without further testing. As a survey, it cannot go into full technical detail for each individual model, so I still need to read primary research papers for deeper methodological insight.
@@ -193,7 +191,7 @@ I found the papers in this section using Google Scholar, starting from keywords 
   - This paper helps me justify that comparing detectors should involve more than raw accuracy, especially when discussing robustness and fairness.
   - It also strengthens the literature gap by showing that detector evaluation is still complicated even before moving into short, informal online-comment settings.
 
-- **Reasons for Excluding Other Papers
+- **Reasons for Excluding Other Papers**
 -Papers about general machine-generated text were useful background but too broad for the final comparison.
 -Papers focused on non-comment domains were less directly applicable.
 -Some sources looked promising but did not address detector comparison clearly enough.
@@ -270,7 +268,7 @@ In line with academic integrity policies, any use of digital tools (AI search en
   - Initial difficulty in defining a precise research question, resolved by reviewing existing work on toxic comment classification and aligning with module expectations.
 
 - **Plan for Next Week:**
-  - Finalise the definition of “toxic and hateful comments” and target platform(s).
+  - Finalise the definition of “toxic and hateful comments”.
   - Identify 3–5 key papers on toxic comment and hate speech detection to evaluate.
 
 ### Week 02: Focus Area - Refining the Research Question
